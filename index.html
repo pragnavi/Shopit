@@ -143,7 +143,7 @@
                 <form>
                     <input type="text" name="user" placeholder="Username" ng-model="user.name">
                     <input type="password" name="passwd" placeholder="Password" ng-model="user.passwd">
-                    <input type="submit" name="login" class="login loginmodal-submit" data-target="#loginsuccessModal" data-toggle="modal" class="close" data-dismiss="modal">
+                    <input type="submit" name="login" class="login loginmodal-submit" ng-click="login(user)" data-toggle="modal" class="close" data-dismiss="modal">
                 </form>
             </div>
         </div>
