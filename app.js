@@ -1,6 +1,3 @@
-/**
- * Created by pragnavi on 27/9/16.
- */
 
 var shopApp = angular.module('shopApp', ['ngRoute']);
 
