@@ -1,5 +1,5 @@
 /**
- * Created by tina on 6/4/16.
+ * Created by pragnavi on 27/9/16.
  */
 var app = angular.module( 'shopApp', [] );
 app.controller( 'mainController', function( $scope,$http ) {
